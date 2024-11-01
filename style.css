@@ -7,7 +7,7 @@
   body {
     font-family: Arial, sans-serif;
     background: linear-gradient(135deg, #8e04ff, #c04edd);
-    color: #f9f9f9;
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,12 +15,12 @@
   }
   
   .container {
-    max-width: 400px;
+    max-width: 600px;
     background: #382341;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 40px;
     text-align: center;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
   }
   
   header .avatar {
