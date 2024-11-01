@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8e04ff, #c04edd);
+    color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    max-width: 400px;
+    background: #382341;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  header .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #ff44ca;
+  }
+  
+  header h1 {
+    font-size: 2em;
+  }
+  
+  .rank {
+    font-size: 1.2em;
+    color: #d1b3ff;
+  }
+  
+  section h2 {
+    font-size: 1.5em;
+    margin: 1.5rem 0 0.5rem;
+    color: #ff8bed;
+  }
+  
+  .about p,
+  .stats ul,
+  .socials .social-links a {
+    color: #e1c4f1;
+  }
+  
+  .stats ul {
+    list-style: none;
+  }
+  
+  .stats li {
+    padding: 0.3rem 0;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #f9f9f9;
+    background: #6a1b9a;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .social-links a:hover {
+    background: #9d4edd;
+  }
+  
+  footer {
+    font-size: 0.9em;
+    color: #c6a1e8;
+    margin-top: 1.5rem;
+  }
+  
